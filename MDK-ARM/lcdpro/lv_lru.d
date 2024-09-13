@@ -1,0 +1,13 @@
+lcdpro\lv_lru.o: ..\GUI\lvgl\src\misc\lv_lru.c
+lcdpro\lv_lru.o: ..\GUI\lvgl\src\misc\lv_lru.h
+lcdpro\lv_lru.o: ..\GUI\lvgl\src\misc\../lv_conf_internal.h
+lcdpro\lv_lru.o: D:\software\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+lcdpro\lv_lru.o: ..\GUI\lvgl\src\misc\../lv_conf_kconfig.h
+lcdpro\lv_lru.o: ..\GUI\lvgl\examples\porting\../../lv_conf.h
+lcdpro\lv_lru.o: ..\GUI\lvgl\src\misc\lv_types.h
+lcdpro\lv_lru.o: D:\software\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+lcdpro\lv_lru.o: ..\GUI\lvgl\src\misc\lv_math.h
+lcdpro\lv_lru.o: ..\GUI\lvgl\src\misc\lv_mem.h
+lcdpro\lv_lru.o: D:\software\Keil\ARM\ARMCC\Bin\..\include\string.h
+lcdpro\lv_lru.o: ..\GUI\lvgl\src\misc\lv_assert.h
+lcdpro\lv_lru.o: ..\GUI\lvgl\src\misc\lv_log.h

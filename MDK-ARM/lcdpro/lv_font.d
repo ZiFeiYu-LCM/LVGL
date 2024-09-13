@@ -1,0 +1,16 @@
+lcdpro\lv_font.o: ..\GUI\lvgl\src\font\lv_font.c
+lcdpro\lv_font.o: ..\GUI\lvgl\src\font\lv_font.h
+lcdpro\lv_font.o: ..\GUI\lvgl\src\font\../lv_conf_internal.h
+lcdpro\lv_font.o: D:\software\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+lcdpro\lv_font.o: ..\GUI\lvgl\src\font\../lv_conf_kconfig.h
+lcdpro\lv_font.o: ..\GUI\lvgl\examples\porting\../../lv_conf.h
+lcdpro\lv_font.o: D:\software\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+lcdpro\lv_font.o: D:\software\Keil\ARM\ARMCC\Bin\..\include\stdbool.h
+lcdpro\lv_font.o: ..\GUI\lvgl\src\font\lv_symbol_def.h
+lcdpro\lv_font.o: ..\GUI\lvgl\src\font\../misc/lv_area.h
+lcdpro\lv_font.o: ..\GUI\lvgl\src\font\../misc/lv_utils.h
+lcdpro\lv_font.o: ..\GUI\lvgl\src\font\../misc/lv_log.h
+lcdpro\lv_font.o: ..\GUI\lvgl\src\font\../misc/lv_types.h
+lcdpro\lv_font.o: ..\GUI\lvgl\src\font\../misc/lv_assert.h
+lcdpro\lv_font.o: ..\GUI\lvgl\src\font\../misc/lv_mem.h
+lcdpro\lv_font.o: D:\software\Keil\ARM\ARMCC\Bin\..\include\string.h

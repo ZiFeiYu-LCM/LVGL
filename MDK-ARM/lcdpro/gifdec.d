@@ -1,0 +1,16 @@
+lcdpro\gifdec.o: ..\GUI\lvgl\src\extra\libs\gif\gifdec.c
+lcdpro\gifdec.o: ..\GUI\lvgl\src\extra\libs\gif\gifdec.h
+lcdpro\gifdec.o: D:\software\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+lcdpro\gifdec.o: ..\GUI\lvgl\src\extra\libs\gif\../../../misc/lv_fs.h
+lcdpro\gifdec.o: ..\GUI\lvgl\src\extra\libs\gif\../../../misc/../lv_conf_internal.h
+lcdpro\gifdec.o: ..\GUI\lvgl\src\extra\libs\gif\../../../misc/../lv_conf_kconfig.h
+lcdpro\gifdec.o: ..\GUI\lvgl\examples\porting\../../lv_conf.h
+lcdpro\gifdec.o: D:\software\Keil\ARM\ARMCC\Bin\..\include\stdbool.h
+lcdpro\gifdec.o: ..\GUI\lvgl\src\extra\libs\gif\../../../misc/lv_log.h
+lcdpro\gifdec.o: ..\GUI\lvgl\src\extra\libs\gif\../../../misc/lv_types.h
+lcdpro\gifdec.o: ..\GUI\lvgl\src\extra\libs\gif\../../../misc/lv_mem.h
+lcdpro\gifdec.o: D:\software\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+lcdpro\gifdec.o: D:\software\Keil\ARM\ARMCC\Bin\..\include\string.h
+lcdpro\gifdec.o: ..\GUI\lvgl\src\extra\libs\gif\../../../misc/lv_color.h
+lcdpro\gifdec.o: ..\GUI\lvgl\src\extra\libs\gif\../../../misc/lv_assert.h
+lcdpro\gifdec.o: ..\GUI\lvgl\src\extra\libs\gif\../../../misc/lv_math.h

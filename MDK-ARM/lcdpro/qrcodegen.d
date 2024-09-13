@@ -1,0 +1,9 @@
+lcdpro\qrcodegen.o: ..\GUI\lvgl\src\extra\libs\qrcode\qrcodegen.c
+lcdpro\qrcodegen.o: D:\software\Keil\ARM\ARMCC\Bin\..\include\assert.h
+lcdpro\qrcodegen.o: D:\software\Keil\ARM\ARMCC\Bin\..\include\limits.h
+lcdpro\qrcodegen.o: D:\software\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
+lcdpro\qrcodegen.o: D:\software\Keil\ARM\ARMCC\Bin\..\include\string.h
+lcdpro\qrcodegen.o: ..\GUI\lvgl\src\extra\libs\qrcode\qrcodegen.h
+lcdpro\qrcodegen.o: D:\software\Keil\ARM\ARMCC\Bin\..\include\stdbool.h
+lcdpro\qrcodegen.o: D:\software\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+lcdpro\qrcodegen.o: D:\software\Keil\ARM\ARMCC\Bin\..\include\stdint.h

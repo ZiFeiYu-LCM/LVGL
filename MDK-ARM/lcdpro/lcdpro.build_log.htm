@@ -1,0 +1,84 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: lcm none, none, LIC=MPPLD-8CYG1-CXHU6-DD9D5-FV8YM-NA195
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.36.0.0
+Toolchain Path:  D:\software\Keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+E:\stm32Pro\lcd\lcdpro\MDK-ARM\lcdpro.uvprojx
+Project File Date:  09/05/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\software\Keil\ARM\ARMCC\Bin'
+Build target 'lcdpro'
+Note: source file '../Core/Src/main.c' - object file renamed from 'lcdpro\main.o' to 'lcdpro\main_1.o'.
+Note: source file '../Core/Src/gpio.c' - object file renamed from 'lcdpro\gpio.o' to 'lcdpro\gpio_1.o'.
+Note: source file '../Core/Src/fsmc.c' - object file renamed from 'lcdpro\fsmc.o' to 'lcdpro\fsmc_1.o'.
+Note: source file '../Core/Src/spi.c' - object file renamed from 'lcdpro\spi.o' to 'lcdpro\spi_1.o'.
+Note: source file '../Core/Src/usart.c' - object file renamed from 'lcdpro\usart.o' to 'lcdpro\usart_1.o'.
+Note: source file '../Core/Src/stm32f1xx_it.c' - object file renamed from 'lcdpro\stm32f1xx_it.o' to 'lcdpro\stm32f1xx_it_1.o'.
+Note: source file '../Core/Src/stm32f1xx_hal_msp.c' - object file renamed from 'lcdpro\stm32f1xx_hal_msp.o' to 'lcdpro\stm32f1xx_hal_msp_1.o'.
+Note: source file '..\SYSTEM\delay\delay.c' - object file renamed from 'lcdpro\delay.o' to 'lcdpro\delay_1.o'.
+Note: source file '../Core/Src/main.c' - object file renamed from 'lcdpro\main.o' to 'lcdpro\main_1.o'.
+Note: source file '../Core/Src/gpio.c' - object file renamed from 'lcdpro\gpio.o' to 'lcdpro\gpio_1.o'.
+Note: source file '../Core/Src/fsmc.c' - object file renamed from 'lcdpro\fsmc.o' to 'lcdpro\fsmc_1.o'.
+Note: source file '../Core/Src/spi.c' - object file renamed from 'lcdpro\spi.o' to 'lcdpro\spi_1.o'.
+Note: source file '../Core/Src/usart.c' - object file renamed from 'lcdpro\usart.o' to 'lcdpro\usart_1.o'.
+Note: source file '../Core/Src/stm32f1xx_it.c' - object file renamed from 'lcdpro\stm32f1xx_it.o' to 'lcdpro\stm32f1xx_it_1.o'.
+Note: source file '../Core/Src/stm32f1xx_hal_msp.c' - object file renamed from 'lcdpro\stm32f1xx_hal_msp.o' to 'lcdpro\stm32f1xx_hal_msp_1.o'.
+compiling lv_mainstart.c...
+linking...
+lcdpro\lcdpro.axf: Warning: L6304W: Duplicate input file lcdpro\main_1.o ignored.
+lcdpro\lcdpro.axf: Warning: L6304W: Duplicate input file lcdpro\gpio_1.o ignored.
+lcdpro\lcdpro.axf: Warning: L6304W: Duplicate input file lcdpro\fsmc_1.o ignored.
+lcdpro\lcdpro.axf: Warning: L6304W: Duplicate input file lcdpro\spi_1.o ignored.
+lcdpro\lcdpro.axf: Warning: L6304W: Duplicate input file lcdpro\usart_1.o ignored.
+lcdpro\lcdpro.axf: Warning: L6304W: Duplicate input file lcdpro\stm32f1xx_it_1.o ignored.
+lcdpro\lcdpro.axf: Warning: L6304W: Duplicate input file lcdpro\stm32f1xx_hal_msp_1.o ignored.
+Program Size: Code=164312 RO-data=24492 RW-data=616 ZI-data=61184  
+Finished: 0 information, 7 warning and 0 error messages.
+FromELF: creating hex file...
+"lcdpro\lcdpro.axf" - 0 Error(s), 7 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_lcdpro
+  D:\software\Keil\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  D:\software\Keil\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+      Include file:  CMSIS\Core\Include\tz_context.h
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>
